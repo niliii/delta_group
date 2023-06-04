@@ -2,8 +2,7 @@
 	font-family: 'iransans';
 	src: url("iransans_light_farsi_num.ttf") format("truetype");
 }
-.header{float: left !important;}
-
+.content .title{    direction: rtl !important;}
 .popup{   
     position: fixed !important;
     top: 50% !important ;

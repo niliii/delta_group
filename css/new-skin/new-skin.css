@@ -17,6 +17,7 @@ body {
 	font-size: 16px;
 	color: #646464;
 	background: #fff;
+	
 }
 
 /*
@@ -33,6 +34,7 @@ h6 {
 	color: #323232;
 	line-height: 1.4em;
 	font-weight: 600;
+	direction: rtl;
 }
 
 .h-title {
@@ -902,6 +904,7 @@ input[type="file"] {
 	min-height: 51px;
 	font-weight: 600;
 	z-index: 2;
+	direction: rtl !important;
 }
 
 .content .title.no-title:before {
@@ -1186,16 +1189,19 @@ input[type="file"] {
 .resume-title,
 .skill-title {
 	padding: 0 0 30px 0;
+	direction: rtl;
 }
 
 .resume-title:after,
 .skill-title:after {
 	left: 0;
+	direction: rtl;
 }
 
 .resume-title .icon,
 .skill-title .icon {
 	top: -13px;
+	direction: rtl;
 }
 
 .resume-title .name,
@@ -1203,19 +1209,23 @@ input[type="file"] {
 	line-height: 14px;
 	color: #323232;
 	font-size: 17px;
+	direction: rtl;
 }
 
 .resume-title .name:first-child, .skill-title .name:first-child {
 	margin-left: 0;
+	direction: rtl;
 }
 
 /* Resume */
 .resume-items .resume-item {
 	padding: 30px 0;
+	direction: rtl;
 }
 
 .resume-items .resume-item:after {
 	left: 0;
+	direction: rtl;
 }
 
 .resume-items .resume-item:last-child {
@@ -1250,6 +1260,7 @@ input[type="file"] {
 	color: #323232;
 	font-weight: 500;
 	text-transform: none;
+	direction: rtl;
 }
 
 .resume-items .resume-item .company {
@@ -1274,16 +1285,19 @@ input[type="file"] {
 */
 .content.works .border-line-h:after {
 	display: none;
+	direction: rtl;
 }
 
 .content.works .filter-menu {
 	font-weight: 400;
 	z-index: 2;
+	direction: rtl;
 }
 
 .content.works .filter-menu .f_btn {
 	font-size: 14px;
 	color: #646464;
+	direction: rtl;
 }
 
 .content.works .filter-menu .f_btn input {
