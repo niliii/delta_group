@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'iransans';
-	src: url("/html/ryan/fonts/iransans_light_farsi_num.ttf") format("truetype");
+	src: url("iransans_light_farsi_num.ttf") format("truetype");
 }
 .header{float: left !important;}
 
